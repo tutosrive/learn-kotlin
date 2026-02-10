@@ -6,6 +6,7 @@ class Types1: RunTemplate() {
     override fun doAll() {
         val variables = this.variablesSet()
 
+        println("\n#############\n Tema: Tipos de datos (básicos) \n#############\n")
         for(varI in variables){
             println("Variable Value: [$varI]")
         }
