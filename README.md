@@ -12,4 +12,4 @@ escencial. Este repo contendrá el paso a paso de mi aprendizaje respecto a este
 5. Condicionales (Control del flujo del programa)
 6. Switch Case (When, en Kotlin)
 
-Más: [Learn Kotlin](kan.bn/ycxri55ez14v/learn-kotlin-srm)
+Más: [Learn Kotlin](https://kan.bn/ycxri55ez14v/learn-kotlin-srm)
