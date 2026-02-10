@@ -3,11 +3,6 @@ package com.srm.learn.topics
 import com.srm.learn.models.RunTemplate
 
 class Types1: RunTemplate() {
-
-    override fun run(){
-        this.doAll()
-    }
-
     override fun doAll() {
         val variables: Array<Any> = this.variablesSet()
 

@@ -1,10 +1,13 @@
 package com.srm.learn.models
 
 open class RunTemplate {
-    open fun run(){
-        println("\"RunTemplate.run()\" method ...")
+    fun run(){
+       this.doAll()
     }
 
+    /**
+     * Mostrar resultados de ejecución  ...
+     * */
     open fun doAll(){
         println("\"RunTemplate.todoAll()\" method...")
     }
