@@ -17,8 +17,10 @@ class Types1: RunTemplate() {
         val double: Double = 12.2
         val char: Char = 'a'
         val str: String = "This is a text"
+        val boolean: Boolean = true
+        val long: Long = 99_8818212_012991212
 
-        val arrAny: Array<Any> = arrayOf(int, float, double, char, str)
+        val arrAny: Array<Any> = arrayOf(int, float, double, char, str, boolean, long)
         return arrAny
     }
 
