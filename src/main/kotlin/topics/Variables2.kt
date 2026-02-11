@@ -2,11 +2,10 @@ package com.srm.learn.topics
 
 import com.srm.learn.models.RunTemplate
 
-class Variables2: RunTemplate() {
+class Variables2: RunTemplate(t="Variables") {
     override fun doAll() {
         val vars: Array<Any> = this.setAllVariables()
 
-        println("\n#############\nTema: Variables\n#############\n")
         for(varI in vars){
             println("Valor de variable: [$varI]")
         }

@@ -2,11 +2,10 @@ package com.srm.learn.topics
 
 import com.srm.learn.models.RunTemplate
 
-class Types1: RunTemplate() {
+class Types1: RunTemplate(t="Tipos de datos básicos") {
     override fun doAll() {
         val variables = this.variablesSet()
 
-        println("\n#############\n Tema: Tipos de datos (básicos) \n#############\n")
         for(varI in variables){
             println("Variable Value: [$varI]")
         }

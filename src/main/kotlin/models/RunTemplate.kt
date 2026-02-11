@@ -1,7 +1,9 @@
 package com.srm.learn.models
 
-open class RunTemplate {
-    open val topic = "Template"
+open class RunTemplate(
+    t: String
+) {
+    open val topic = t
 
     fun run(){
         this.getTopic()
@@ -16,6 +18,6 @@ open class RunTemplate {
     }
 
     open fun getTopic(){
-        println(this.topic)
+        println("\n#########\nTema: ${this.topic}\n#########\n")
     }
 }
