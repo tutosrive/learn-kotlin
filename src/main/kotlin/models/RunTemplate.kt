@@ -5,7 +5,7 @@ open class RunTemplate(
 ) {
     open val topic = t
 
-    fun run(){
+    fun run() {
         this.getTopic()
         this.doAll()
     }
@@ -13,11 +13,11 @@ open class RunTemplate(
     /**
      * Mostrar resultados de ejecución  ...
      * */
-    open fun doAll(){
+    open fun doAll() {
         println("\"RunTemplate.todoAll()\" method...")
     }
 
-    open fun getTopic(){
+    open fun getTopic() {
         println("\n#########\nTema: ${this.topic}\n#########\n")
     }
 }
